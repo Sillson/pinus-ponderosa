@@ -13,8 +13,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'haml-rails'
 gem 'nokogiri', '~> 1.6.6'
-gem 'will_paginate', '~> 3.0.6'
-gem 'will_paginate-bootstrap'
 gem 'figaro'
 gem 'friendly_id'
 gem 'puma'
