@@ -15,14 +15,12 @@ gem 'haml-rails'
 gem 'nokogiri', '~> 1.6.6'
 gem 'will_paginate', '~> 3.0.6'
 gem 'will_paginate-bootstrap'
-gem 'resque' 
-gem 'resque-web', require: 'resque_web'
 gem 'figaro'
-gem 'heroku-api'
-gem 'heroku_resque_autoscaler'
-gem 'resque-scheduler'
 gem 'friendly_id'
 gem 'puma'
+gem 'devise'
+gem 'activeadmin', github: 'activeadmin'
+gem 'cancancan'
 
 
 group :development, :test do
@@ -41,7 +39,6 @@ group :test do
   gem 'factory_girl_rails'
   gem 'fabrication', '~> 2.9.8'
   gem 'capybara'
-  gem 'vcr'
   gem 'database_cleaner'
 end
 
